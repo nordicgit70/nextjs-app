@@ -6,7 +6,7 @@ export async function generateMetadata({ searchParams }) {
       };
 }
 
-export default function SearchPage({ searchParams, children}) {
+export default function SearchPage({ searchParams}) {
     return(
         <div>
             <div>{JSON.stringify(searchParams)}</div>
